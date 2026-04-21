@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+color: #a55c5c;
+}
+.topbar{
+    margin: auto;
+    background-color:#caf953 ;
+width: 95%;
+height: 50px;
+border-radius: 40px;
+text-align: center;
+padding: 10px;
+}
