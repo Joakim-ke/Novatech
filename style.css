@@ -15,10 +15,12 @@ body{
     margin: auto;
     background-color:#caf953 ;
     width: 95%;
-    height: 50px;
+    height: 30px;
     border-radius: 40px;
     display: flex;
     align-items: center;
+    
+    padding: 10px;
 }
 .tobar h2{
     font-size: 25px;
@@ -27,15 +29,46 @@ body{
 }
 
 
-.info ul{
+.topbar ul{
     display: flex;
     list-style: none;
-    gap: 40px;
-    justify-content: center;
+  
+
     padding: 15px;
 }
-.info ul li a{
+.topbar ul li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
+}
+.info ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 60px;
+        transition: 0.5s;
+}
+.info ul li a:hover{
+    text-decoration: underline;
+    
+        
+    }
+.name a{
+    font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+text-decoration: none;
+color: #000;
+margin-left: 10px;
+
+}
+.name a:hover{
+transform: scale(1.1);
+    transition: 0.5s;
+    
+
+}
+.container{
+  background-color: #cad3b5;
 }
