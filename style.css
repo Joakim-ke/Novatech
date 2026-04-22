@@ -4,6 +4,12 @@ body{
     box-sizing: border-box;
     font-family: madefor-400, sans-serif;
 }
+/* header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+} */
 
 .topbar{
     margin: auto;
@@ -11,11 +17,13 @@ body{
     width: 95%;
     height: 50px;
     border-radius: 40px;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 .tobar h2{
     font-size: 25px;
     margin-left: 10px;
+    list-style: none;
 }
 
 
