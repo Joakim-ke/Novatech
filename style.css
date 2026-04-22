@@ -1,14 +1,33 @@
 body{
     margin: 0px;
     padding: 0px;
-color: #a55c5c;
+    box-sizing: border-box;
+    font-family: madefor-400, sans-serif;
 }
+
 .topbar{
     margin: auto;
     background-color:#caf953 ;
-width: 95%;
-height: 50px;
-border-radius: 40px;
-text-align: center;
-padding: 10px;
+    width: 95%;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.tobar h2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+.info ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+    padding: 15px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
