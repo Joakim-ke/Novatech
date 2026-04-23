@@ -73,12 +73,283 @@ transform: scale(1.1);
 margin-top: 30px;
 font-size: 50px;
 font-weight: bolder;
-
 }
-
 .home{
     margin-top: 20px;
-
 }
 
-    
+/* row1 */
+
+
+.product{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.products-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.add-to-cart{
+    background-color: #caf953;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(202, 249, 83, 0.3);
+}
+
+.add-to-cart:hover{
+    background-color: #b8e63f;
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
+}
+
+
+.watch{
+/* background-color: #caf953; */
+width: 371PX;
+height: 371PX; 
+background-image: url(../img/watch.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.watch:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -30px 40px rgba(220, 246, 155, 0.8), 0 -15px 60px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.5);
+}
+
+ .earbuds{
+   background-image: url(../img/earbuds.avif);
+    width: 371PX;
+height: 371PX; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+ }
+
+.earbuds:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: -25px -15px 35px rgba(220, 246, 155, 0.8), 25px -15px 35px rgba(220, 246, 155, 0.8), 0 0 70px rgba(220, 246, 155, 0.5);
+}
+
+.mox{
+   background-image: url(../img/MOX.jpg);
+width: 371PX;
+height: 371PX; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.mox:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -40px 50px rgba(220, 246, 155, 0.85), 0 -20px 70px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.4);
+}
+
+
+/* row 2 */
+
+
+
+.products-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.add-to-cart{
+    background-color: #caf953;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(202, 249, 83, 0.3);
+}
+
+.add-to-cart:hover{
+    background-color: #b8e63f;
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
+}
+
+
+.wat{
+/* background-color: #caf953; */
+width: 371PX;
+height: 371PX; 
+background-image: url(../img/TV.jpg);
+        
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.wat:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -30px 40px rgba(220, 246, 155, 0.8), 0 -15px 60px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.5);
+}
+
+ .ear{
+   background-image: url(../img/headphone1.avif);
+    width: 371PX;
+height: 371PX; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+ }
+
+.ear:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: -25px -15px 35px rgba(220, 246, 155, 0.8), 25px -15px 35px rgba(220, 246, 155, 0.8), 0 0 70px rgba(220, 246, 155, 0.5);
+}
+
+.tb{
+   background-image: url(../img/TABLET.jpg);
+width: 371PX;
+height: 371PX; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.tb:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -40px 50px rgba(220, 246, 155, 0.85), 0 -20px 70px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.4);
+}
+
+/* row 3 */
+
+
+
+.products-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+
+.BT{
+/* background-color: #caf953; */
+width: 371PX;
+height: 371PX; 
+background-image: url(../img/BTSPEAKER.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.BT:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -30px 40px rgba(220, 246, 155, 0.8), 0 -15px 60px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.5);
+}
+
+ .earbuds{
+   background-image: url(../img/earbuds.avif);
+    width: 371PX;
+height: 371PX; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+ }
+
+.earbuds:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: -25px -15px 35px rgba(220, 246, 155, 0.8), 25px -15px 35px rgba(220, 246, 155, 0.8), 0 0 70px rgba(220, 246, 155, 0.5);
+}
+
+.mox{
+   background-image: url(../img/MOX.jpg);
+width: 371PX;
+height: 371PX; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.mox:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -40px 50px rgba(220, 246, 155, 0.85), 0 -20px 70px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.4);
+}
+
+
