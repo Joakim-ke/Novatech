@@ -5,12 +5,6 @@ body{
     font-family: madefor-400, sans-serif;
     scroll-behavior: smooth;
 }
-/* header{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-} */
 
 .topbar{
     margin: auto;
@@ -33,9 +27,6 @@ body{
 .topbar ul{
     display: flex;
     list-style: none;
-  
-
-    padding: 15px;
 }
 .topbar ul li a{
     text-decoration: none;
@@ -45,10 +36,9 @@ body{
 .info ul li{
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    padding: 1px;
     margin-left: 90px;
-        transition: 0.5s;
+    transition: 0.5s;
 }
 .info ul li a:hover{
     text-decoration: underline;
@@ -125,7 +115,7 @@ object-fit: cover;
 }
 
 .slider-container{
- margin-top: 10px;
+ margin-top: 30px;
  margin-left: 20px;
  border-radius: 20px;
  width: 97%;
@@ -199,11 +189,11 @@ object-fit: cover;
 }
 
 .slider-container h1{
-    font-size: 30px;
-    margin-left: 18em;
+    font-size: 40px;
+    margin-left: 13em;
     margin-top: 10px;
 }
-
+/* box1 */
 .box-img{
     width: 100%;
     height: 45vh;
@@ -213,6 +203,88 @@ object-fit: cover;
     background-size: cover;
    border-radius: 15px;
 }
+/* box 2 */
+.box-img2{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/PNE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 3 */
+.box-img3{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/TV.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 4 */
+.box-img4{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/TABLET.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 5 */
+.box-img5{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/BTSPEAKER.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 6 */
+.box-img6{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/MOX.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 7 */
+.box-img7{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/headphone1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 8 */
+.box-img8{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/TOUCHSCREENLAPTOP.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* box 9 */
+.box-img9{
+    width: 100%;
+    height: 45vh;
+    background-image: url(img/earbuds.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   border-radius: 15px;
+}
+/* end of boxezs */
+
 .product{
     width: 100%;
     height: 14vh;
@@ -244,5 +316,29 @@ object-fit: cover;
     transform: scale(1.08);
     box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
 }
-/* end of box */
-/* start of box1 */
+
+.bg-container{
+     width: 97%;
+    height: 90vh;
+    background-image: url(img/bg3.avif);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    object-fit: cover;
+    background-position: center;
+}
+.info2 p{
+    color: white;
+    font-size: 30px;
+   padding-top: 10em;
+   padding-left:12em;
+}
+
+.info2 span{
+  padding-left:2.5em;
+}
+.info2 button{
+   padding-top: 1px;
+}
+
+
