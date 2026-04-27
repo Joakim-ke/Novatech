@@ -187,7 +187,7 @@ object-fit: cover;
 
 .link{
     margin-top: 2em;
-    margin-left: 34em;
+    margin-left: 30em;
 }
 .link button{
     background-color: #caf953;
@@ -204,6 +204,10 @@ object-fit: cover;
     text-decoration: underline;
     transform: scale(1.08);
     box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
+}
+.link button a{
+    text-decoration: none;
+    color: black;
 }
 
 .slider-container{
