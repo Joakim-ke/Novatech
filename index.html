@@ -10,7 +10,7 @@
 </head>
 <body>
 
-   <header> 
+   <section> 
    <div class="topbar">
 
       <div class="name">
@@ -26,8 +26,24 @@
           <li><a href="pages/audio.html">Audio </a></li>
       </ul>
      </div>
+     <!-- login -->
+
+          <button id="openLogin">
+            <i class="fa-solid fa-circle-user" style="color: rgb(6, 6, 6);"></i>
+            <p>Sign In</p>
+         </button>
+
+<div id="overlay"></div>
+
+    <div id="loginBox" class="hidden">
+        <h3>SIGN IN</h3><br>
+        <input type="text" placeholder="email" required><br><br>
+        <input type="password" placeholder="password" required><br><br>
+        <div class="log"><button><p>Sign In</p></button></div>
+    </div>
+    <!-- end of login -->
    </div>
-   </header>  
+   </section>  
 
 
    <section>
