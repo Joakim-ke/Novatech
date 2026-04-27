@@ -1,0 +1,432 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: madefor-400, sans-serif;
+}
+
+
+.topbar{
+    margin: auto;
+    background-color:#caf953 ;
+    width: 95%;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.tobar h2{
+    font-size: 25px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+
+.topbar ul{
+    display: flex;
+    list-style: none;
+}
+.topbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.info ul li{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-left: 90px;
+    transition: 0.5s;
+}
+.info ul li a:hover{
+    text-decoration: underline;
+}
+.name a{
+    font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+text-decoration: none;
+color: #000;
+margin-left: 20px;
+
+}
+.name a:hover{
+transform: scale(1.1);
+    transition: 0.5s;
+}
+/* login */
+button{
+    background: transparent;
+    margin-top: 7px;
+    border: solid 2px rgb(0, 0, 0);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 1px;
+    display: flex;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffffff61;
+}
+
+button i{
+    margin-left: 5px;
+    margin-top: -4px;
+    font-size: 30px;
+}
+button i:hover{
+    transform: scale(1.1);
+}
+
+
+ button p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    transition: 0.3s ease;
+    margin-top: -5px;
+    margin-left: 7px;
+    padding: 5px;
+}
+button p:hover{
+    transform: scale(1.1);
+}
+
+#overlay{
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#caf9536f;
+  display: none;
+}
+#loginBox {
+  position: fixed;
+  top: -400px;
+  left: 70%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+#loginBox.show {
+   top: 100px;
+}
+
+#overlay.show{
+    display: block;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+   border: solid black 2px;
+   border-radius: 10px;
+  
+}
+
+.log button{
+    border: solid black 2px;
+    transition: 0.3 ease;
+}
+.log button:hover{
+    background-color:#caf953;
+    cursor: pointer;
+}
+.log button p{
+    margin-left: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-top: -5px;
+}
+/* end of login */
+.allpro{
+   text-align: center;
+   margin-top: 10px;
+}
+
+ .all{
+margin-top: 30px;
+font-size: 60px;
+font-weight: bolder;
+}
+.home{
+    margin-top: 20px;
+}
+
+/* row1 */
+
+
+.product{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.products-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.add-to-cart{
+    background-color: #caf953;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(202, 249, 83, 0.3);
+}
+
+.add-to-cart:hover{
+    background-color: #b8e63f;
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
+}
+
+
+.watch{
+/* background-color: #caf953; */
+width: 371PX;
+height: 371PX; 
+background-image: url(../img/spacewatch.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.watch:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -30px 40px rgba(220, 246, 155, 0.8), 0 -15px 60px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.5);
+}
+
+ .earbuds{
+   background-image: url(../img/earbuds.avif);
+    width: 371PX;
+height: 371PX; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+ }
+
+.earbuds:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: -25px -15px 35px rgba(220, 246, 155, 0.8), 25px -15px 35px rgba(220, 246, 155, 0.8), 0 0 70px rgba(220, 246, 155, 0.5);
+}
+
+.mox{
+   background-image: url(../img/BTSPEAKER.jpg);
+width: 371PX;
+height: 371PX; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.mox:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -40px 50px rgba(220, 246, 155, 0.85), 0 -20px 70px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.4);
+}
+
+/* row 2 */
+.products-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.add-to-cart{
+    background-color: #caf953;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(202, 249, 83, 0.3);
+}
+
+.add-to-cart:hover{
+    background-color: #b8e63f;
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(202, 249, 83, 0.5);
+}
+
+
+.wat{
+/* background-color: #caf953; */
+width: 371PX;
+height: 371PX; 
+background-image: url(../img/TV.jpg);
+        
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.wat:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -30px 40px rgba(220, 246, 155, 0.8), 0 -15px 60px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.5);
+}
+
+ .ear{
+   background-image: url(../img/headphone1.avif);
+    width: 371PX;
+height: 371PX; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+ }
+
+.ear:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: -25px -15px 35px rgba(220, 246, 155, 0.8), 25px -15px 35px rgba(220, 246, 155, 0.8), 0 0 70px rgba(220, 246, 155, 0.5);
+}
+
+.tb{
+   background-image: url(../img/TABLET.jpg);
+width: 371PX;
+height: 371PX; 
+border-radius: 30px;
+transition: 0.4s ease;
+cursor: pointer;
+}
+
+.tb:hover{
+    transform: scale(1.15) translateY(-20px);
+    box-shadow: 0 -40px 50px rgba(220, 246, 155, 0.85), 0 -20px 70px rgba(220, 246, 155, 0.6), 0 0 80px rgba(220, 246, 155, 0.4);
+}
+
+footer{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.781),rgba(255, 255, 255, 0.509)),url(../img/bg.jpg);
+    width: 100%;
+    height: 90vh;
+    margin-top: 30px;
+}
+ footer h2{
+  padding-top: 20px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+ }
+
+.icon{
+    display: flex;
+    gap: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.icon i:hover{
+    transform: scale(1.2);
+}
+
+.links ul{
+    margin-left: 20em;
+    margin-top: -3em;
+  
+}
+
+.links ul li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+     padding-bottom: 10px;
+}
+.links ul li a{
+    text-decoration: none;
+    cursor:pointer;
+    color: black;
+    transition: 0.3s;
+}
+.links ul li a:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    margin-left: 45em;
+    margin-top: -17em;
+}
+.contact h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact p{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.cr{
+    height: 10vh;
+    margin-top: 10.5em;
+    background-color: black;
+}
+.cr p{
+    color: white;
+    font-size: 20px;
+    padding: 15px 22em;
+}
+
