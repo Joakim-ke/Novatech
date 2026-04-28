@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: madefor-400, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.topbar{
+    margin: auto;
+    background-color:#caf953 ;
+    width: 95%;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.tobar h2{
+    font-size: 25px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+
+.topbar ul{
+    display: flex;
+    list-style: none;
+}
+.topbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.info ul li{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-left: 90px;
+    transition: 0.5s;
+}
+.info ul li a:hover{
+    text-decoration: underline;
+}
+.name a{
+    font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+text-decoration: none;
+color: #000;
+margin-left: 20px;
+
+}
+.name a:hover{
+transform: scale(1.1);
+    transition: 0.5s;
+}
+/* login */
+button{
+    background: transparent;
+    margin-top: 7px;
+    border: solid 2px rgb(0, 0, 0);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 100px;
+    margin-top: 1px;
+    display: flex;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffffff61;
+}
+
+button i{
+    margin-left: 5px;
+    margin-top: -4px;
+    font-size: 30px;
+}
+button i:hover{
+    transform: scale(1.1);
+}
+
+
+ button p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    transition: 0.3s ease;
+    margin-top: -5px;
+    margin-left: 7px;
+    padding: 5px;
+}
+button p:hover{
+    transform: scale(1.1);
+}
+
+#overlay{
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#caf9536f;
+  display: none;
+}
+#loginBox {
+  position: fixed;
+  top: -400px;
+  left: 80%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+#loginBox.show {
+   top: 100px;
+}
+
+#overlay.show{
+    display: block;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+   border: solid black 2px;
+   border-radius: 10px;
+  
+}
+
+.log button{
+    border: solid black 2px;
+    transition: 0.3 ease;
+}
+.log button:hover{
+    background-color:#caf953;
+    cursor: pointer;
+}
+.log button p{
+    margin-left: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-top: -5px;
+}
+/* end of login */
